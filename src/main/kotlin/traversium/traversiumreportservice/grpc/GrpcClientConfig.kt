@@ -6,9 +6,11 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 import traversium.audit.metrics.AuditMetricsServiceGrpc
+import org.springframework.cloud.context.config.annotation.RefreshScope
 
 @Configuration
 @EnableConfigurationProperties(GrpcProperties::class)
+@RefreshScope
 class GrpcClientConfig(
     private val grpcProperties: GrpcProperties
 ) {
