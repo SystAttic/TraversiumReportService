@@ -10,7 +10,7 @@
     </parent>
     <groupId>traversium</groupId>
     <artifactId>TraversiumReportService</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <name>TraversiumReportService</name>
     <description>TraversiumReportService</description>
     <url/>
